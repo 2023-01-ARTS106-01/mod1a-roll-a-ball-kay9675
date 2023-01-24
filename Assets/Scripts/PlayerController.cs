@@ -14,22 +14,30 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-	rb = GetComponent<Rigidbody>();
+		rb = GetComponent<Rigidbody>();
     }
 
     void OnMove(InputValue movementValue)
     {
-	// Takes Vector2 value from 'movementValue', stores in 'movementVector'
-	Vector2 movementVector = movementValue.Get<Vector2>();
+		// Takes Vector2 value from 'movementValue', stores in 'movementVector'
+		Vector2 movementVector = movementValue.Get<Vector2>();
 
-	movementX = movementVector.x;
-	movementY = movementVector.y;
+		movementX = movementVector.x;
+		movementY = movementVector.y;
     }
 
     // Constant updates applied before frame drawing (for physics calcs)
     void FixedUpdate()
-    {
-	Vector3 movement = new Vector3(movementX, 0.0f, movementY);
-	rb.AddForce(movement * speed); // Allows movement modification with 'speed' var.
+	{
+		Vector3 movement = new Vector3(movementX, 0.0f, movementY);
+		rb.AddForce(movement * speed); // Allows movement modification with 'speed' var.
     }
+    
+    private void OnTriggerEnter(Collider other)
+    {
+		if(other.gameObject.CompareTag("PickUp"))
+		{
+			other.gameObject.SetActive(false);
+		}
+	}
 }

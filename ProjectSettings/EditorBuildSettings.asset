@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/_rollaball.unity
+    guid: 76392ce77e53b0c4582afc507862a2eb
   m_configObjects: {}

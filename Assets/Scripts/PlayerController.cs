@@ -2,12 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
     public float speed = 0;
+    public TextMeshProUGUI countText;
+    //Holds a refernce to the UI text component on the CountText
+	//GameObject.
+	
+	public GameObject winTextObject;
 
     private Rigidbody rb;
+    private int count;
+    private int cubeCount = 16; //Total number of cubes in level
     private float movementX;
     private float movementY;
     
@@ -15,6 +23,10 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
 		rb = GetComponent<Rigidbody>();
+		count = 0;
+		
+		winTextObject.SetActive(false);
+		SetCountText();
     }
 
     void OnMove(InputValue movementValue)
@@ -25,6 +37,15 @@ public class PlayerController : MonoBehaviour
 		movementX = movementVector.x;
 		movementY = movementVector.y;
     }
+
+	void SetCountText()
+	{
+		countText.text = "Count: " + count.ToString();
+		if(count >= cubeCount)
+		{
+			winTextObject.SetActive(true);
+		}
+	}
 
     // Constant updates applied before frame drawing (for physics calcs)
     void FixedUpdate()
@@ -38,6 +59,9 @@ public class PlayerController : MonoBehaviour
 		if(other.gameObject.CompareTag("PickUp"))
 		{
 			other.gameObject.SetActive(false);
+			count = count + 1;
+			
+			SetCountText();
 		}
 	}
 }

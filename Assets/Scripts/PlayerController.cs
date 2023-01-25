@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
 
 	void SetCountText()
 	{
-		countText.text = "Count: " + count.ToString();
+		countText.text = "Count: " + count.ToString() + "/" + cubeCount.ToString();
 		if(count >= cubeCount)
 		{
 			winTextObject.SetActive(true);

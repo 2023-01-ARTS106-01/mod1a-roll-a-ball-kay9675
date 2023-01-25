@@ -432,13 +432,7 @@
         424,
         425,
         426,
-        427,
-        428,
-        429,
-        430,
-        431,
-        432,
-        433
+        427
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -14730,106 +14724,32 @@
       "DebugActionIndex": 407
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-      "Action": "\"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/7za\" a -tgzip \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked\" \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js\"",
+      "Annotation": "CopyFiles Builds/RollABall_WebGL/Build/RollABall_WebGL.framework.js",
+      "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked"
+        "Builds/RollABall_WebGL/Build/RollABall_WebGL.framework.js"
       ],
       "ToBuildDependencies": [
         407
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
       "DebugActionIndex": 408
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/RollABall_WebGL.framework.js.gz_0a5h.info",
-      "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "{\"System.Object\":null,\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"WebGLPlayerBuildProgram.GzipMarker\",\"methodName\":\"Run\",\"assemblyLocation\":\"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe\",\"targets\":[\"Builds/RollABall_WebGL/Build/RollABall_WebGL.framework.js.gz\"],\"inputs\":[\"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked\"],\"targetDirectories\":[]}}",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/RollABall_WebGL.framework.js.gz_0a5h.info"
-      ],
-      "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 409
-    },
-    {
-      "Annotation": "GzipMarker Builds/RollABall_WebGL/Build/RollABall_WebGL.framework.js.gz",
-      "Action": "\"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/netcorerun/netcorerun\" \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe\" \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee:/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library/Bee/artifacts/csharpactions/RollABall_WebGL.framework.js.gz_0a5h.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-        "Library/Bee/artifacts/csharpactions/RollABall_WebGL.framework.js.gz_0a5h.info",
-        "/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe",
-        "/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.pdb",
-        "/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.pdb",
-        "/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
-      ],
-      "Outputs": [
-        "Builds/RollABall_WebGL/Build/RollABall_WebGL.framework.js.gz"
-      ],
-      "ToBuildDependencies": [
-        408,
-        409
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 410
-    },
-    {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-      "Action": "\"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/7za\" a -tgzip \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked\" \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm\"",
+      "Annotation": "CopyFiles Builds/RollABall_WebGL/Build/RollABall_WebGL.wasm",
+      "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked"
+        "Builds/RollABall_WebGL/Build/RollABall_WebGL.wasm"
       ],
       "ToBuildDependencies": [
         405
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 411
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/RollABall_WebGL.wasm.gz_xwqg.info",
-      "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "{\"System.Object\":null,\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"WebGLPlayerBuildProgram.GzipMarker\",\"methodName\":\"Run\",\"assemblyLocation\":\"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe\",\"targets\":[\"Builds/RollABall_WebGL/Build/RollABall_WebGL.wasm.gz\"],\"inputs\":[\"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked\"],\"targetDirectories\":[]}}",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/RollABall_WebGL.wasm.gz_xwqg.info"
-      ],
-      "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 412
-    },
-    {
-      "Annotation": "GzipMarker Builds/RollABall_WebGL/Build/RollABall_WebGL.wasm.gz",
-      "Action": "\"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/netcorerun/netcorerun\" \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe\" \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee:/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library/Bee/artifacts/csharpactions/RollABall_WebGL.wasm.gz_xwqg.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-        "Library/Bee/artifacts/csharpactions/RollABall_WebGL.wasm.gz_xwqg.info",
-        "/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe",
-        "/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.pdb",
-        "/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.pdb",
-        "/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
-      ],
-      "Outputs": [
-        "Builds/RollABall_WebGL/Build/RollABall_WebGL.wasm.gz"
-      ],
-      "ToBuildDependencies": [
-        411,
-        412
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 413
+      "DebugActionIndex": 409
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json",
@@ -14843,7 +14763,7 @@
       "ToBuildDependencies": [
         2
       ],
-      "DebugActionIndex": 414
+      "DebugActionIndex": 410
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/MethodMap.tsv",
@@ -14857,7 +14777,7 @@
       "ToBuildDependencies": [
         3
       ],
-      "DebugActionIndex": 415
+      "DebugActionIndex": 411
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
@@ -14868,7 +14788,7 @@
         "Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 416
+      "DebugActionIndex": 412
     },
     {
       "Annotation": "Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data",
@@ -14894,66 +14814,29 @@
       ],
       "ToBuildDependencies": [
         3,
-        416
+        412
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 417
+      "DebugActionIndex": 413
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-      "Action": "\"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/7za\" a -tgzip \"Library/Bee/artifacts/WebGL/webgl.data.unmarked\" \"Library/Bee/artifacts/WebGL/webgl.data\"",
+      "Annotation": "CopyFiles Builds/RollABall_WebGL/Build/RollABall_WebGL.data",
+      "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/webgl.data"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked"
+        "Builds/RollABall_WebGL/Build/RollABall_WebGL.data"
       ],
       "ToBuildDependencies": [
-        417
+        413
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 418
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/RollABall_WebGL.data.gz_vjtl.info",
-      "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "{\"System.Object\":null,\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"WebGLPlayerBuildProgram.GzipMarker\",\"methodName\":\"Run\",\"assemblyLocation\":\"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe\",\"targets\":[\"Builds/RollABall_WebGL/Build/RollABall_WebGL.data.gz\"],\"inputs\":[\"Library/Bee/artifacts/WebGL/webgl.data.unmarked\"],\"targetDirectories\":[]}}",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/RollABall_WebGL.data.gz_vjtl.info"
-      ],
-      "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 419
-    },
-    {
-      "Annotation": "GzipMarker Builds/RollABall_WebGL/Build/RollABall_WebGL.data.gz",
-      "Action": "\"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/netcorerun/netcorerun\" \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe\" \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee:/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library/Bee/artifacts/csharpactions/RollABall_WebGL.data.gz_vjtl.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-        "Library/Bee/artifacts/csharpactions/RollABall_WebGL.data.gz_vjtl.info",
-        "/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe",
-        "/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.pdb",
-        "/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.pdb",
-        "/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
-      ],
-      "Outputs": [
-        "Builds/RollABall_WebGL/Build/RollABall_WebGL.data.gz"
-      ],
-      "ToBuildDependencies": [
-        418,
-        419
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 420
+      "DebugActionIndex": 414
     },
     {
       "Annotation": "PreprocessJS Builds/RollABall_WebGL/Build/RollABall_WebGL.loader.js",
-      "Action": "cd \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='/run/media/kaiyem/1e1aee6f\\x2d4444\\x2d4a73\\x2d9897\\x2de6b40b53bb72/School Projects/Unity/project1\\x5frollaball/mod1a\\x2droll\\x2da\\x2dball\\x2dkay9675/Builds/RollABall\\x5fWebGL/Build/RollABall\\x5fWebGL.loader.js'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='ApplePicker'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='RollABall\\x5fWebGL.data.gz'\" \"FRAMEWORK_FILENAME='RollABall\\x5fWebGL.framework.js.gz'\" \"CODE_FILENAME='RollABall\\x5fWebGL.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=16777216\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.16f1'\" \"LOADER_FILENAME='RollABall\\x5fWebGL.loader.js'\"",
+      "Action": "cd \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='/run/media/kaiyem/1e1aee6f\\x2d4444\\x2d4a73\\x2d9897\\x2de6b40b53bb72/School Projects/Unity/project1\\x5frollaball/mod1a\\x2droll\\x2da\\x2dball\\x2dkay9675/Builds/RollABall\\x5fWebGL/Build/RollABall\\x5fWebGL.loader.js'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Roll A Ball'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='RollABall\\x5fWebGL.data'\" \"FRAMEWORK_FILENAME='RollABall\\x5fWebGL.framework.js'\" \"CODE_FILENAME='RollABall\\x5fWebGL.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=16777216\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.16f1'\" \"LOADER_FILENAME='RollABall\\x5fWebGL.loader.js'\"",
       "Inputs": [
         "UnityLoader/UnityLoader.js"
       ],
@@ -14961,11 +14844,11 @@
         "Builds/RollABall_WebGL/Build/RollABall_WebGL.loader.js"
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 421
+      "DebugActionIndex": 415
     },
     {
       "Annotation": "PreprocessJS Builds/RollABall_WebGL/index.html",
-      "Action": "cd \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='/run/media/kaiyem/1e1aee6f\\x2d4444\\x2d4a73\\x2d9897\\x2de6b40b53bb72/School Projects/Unity/project1\\x5frollaball/mod1a\\x2droll\\x2da\\x2dball\\x2dkay9675/Builds/RollABall\\x5fWebGL/index.html'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='ApplePicker'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='RollABall\\x5fWebGL.data.gz'\" \"FRAMEWORK_FILENAME='RollABall\\x5fWebGL.framework.js.gz'\" \"CODE_FILENAME='RollABall\\x5fWebGL.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=16777216\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.16f1'\" \"LOADER_FILENAME='RollABall\\x5fWebGL.loader.js'\"",
+      "Action": "cd \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='/run/media/kaiyem/1e1aee6f\\x2d4444\\x2d4a73\\x2d9897\\x2de6b40b53bb72/School Projects/Unity/project1\\x5frollaball/mod1a\\x2droll\\x2da\\x2dball\\x2dkay9675/Builds/RollABall\\x5fWebGL/index.html'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Roll A Ball'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='RollABall\\x5fWebGL.data'\" \"FRAMEWORK_FILENAME='RollABall\\x5fWebGL.framework.js'\" \"CODE_FILENAME='RollABall\\x5fWebGL.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=16777216\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.16f1'\" \"LOADER_FILENAME='RollABall\\x5fWebGL.loader.js'\"",
       "Inputs": [
         "/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html"
       ],
@@ -14973,7 +14856,7 @@
         "Builds/RollABall_WebGL/index.html"
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 422
+      "DebugActionIndex": 416
     },
     {
       "Annotation": "CopyFiles Builds/RollABall_WebGL/TemplateData/fullscreen-button.png",
@@ -14984,11 +14867,11 @@
       "Outputs": [
         "Builds/RollABall_WebGL/TemplateData/fullscreen-button.png"
       ],
-      "DebugActionIndex": 423
+      "DebugActionIndex": 417
     },
     {
       "Annotation": "PreprocessJS Builds/RollABall_WebGL/TemplateData/style.css",
-      "Action": "cd \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='/run/media/kaiyem/1e1aee6f\\x2d4444\\x2d4a73\\x2d9897\\x2de6b40b53bb72/School Projects/Unity/project1\\x5frollaball/mod1a\\x2droll\\x2da\\x2dball\\x2dkay9675/Builds/RollABall\\x5fWebGL/TemplateData/style.css'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='ApplePicker'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='RollABall\\x5fWebGL.data.gz'\" \"FRAMEWORK_FILENAME='RollABall\\x5fWebGL.framework.js.gz'\" \"CODE_FILENAME='RollABall\\x5fWebGL.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=16777216\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.16f1'\" \"LOADER_FILENAME='RollABall\\x5fWebGL.loader.js'\"",
+      "Action": "cd \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node\" \"/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='/run/media/kaiyem/1e1aee6f\\x2d4444\\x2d4a73\\x2d9897\\x2de6b40b53bb72/School Projects/Unity/project1\\x5frollaball/mod1a\\x2droll\\x2da\\x2dball\\x2dkay9675/Builds/RollABall\\x5fWebGL/TemplateData/style.css'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Roll A Ball'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='RollABall\\x5fWebGL.data'\" \"FRAMEWORK_FILENAME='RollABall\\x5fWebGL.framework.js'\" \"CODE_FILENAME='RollABall\\x5fWebGL.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=16777216\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.16f1'\" \"LOADER_FILENAME='RollABall\\x5fWebGL.loader.js'\"",
       "Inputs": [
         "/home/kaiyem/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css"
       ],
@@ -14996,7 +14879,7 @@
         "Builds/RollABall_WebGL/TemplateData/style.css"
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 424
+      "DebugActionIndex": 418
     },
     {
       "Annotation": "CopyFiles Builds/RollABall_WebGL/TemplateData/progress-bar-full-dark.png",
@@ -15007,7 +14890,7 @@
       "Outputs": [
         "Builds/RollABall_WebGL/TemplateData/progress-bar-full-dark.png"
       ],
-      "DebugActionIndex": 425
+      "DebugActionIndex": 419
     },
     {
       "Annotation": "CopyFiles Builds/RollABall_WebGL/TemplateData/favicon.ico",
@@ -15018,7 +14901,7 @@
       "Outputs": [
         "Builds/RollABall_WebGL/TemplateData/favicon.ico"
       ],
-      "DebugActionIndex": 426
+      "DebugActionIndex": 420
     },
     {
       "Annotation": "CopyFiles Builds/RollABall_WebGL/TemplateData/progress-bar-empty-dark.png",
@@ -15029,7 +14912,7 @@
       "Outputs": [
         "Builds/RollABall_WebGL/TemplateData/progress-bar-empty-dark.png"
       ],
-      "DebugActionIndex": 427
+      "DebugActionIndex": 421
     },
     {
       "Annotation": "CopyFiles Builds/RollABall_WebGL/TemplateData/webgl-logo.png",
@@ -15040,7 +14923,7 @@
       "Outputs": [
         "Builds/RollABall_WebGL/TemplateData/webgl-logo.png"
       ],
-      "DebugActionIndex": 428
+      "DebugActionIndex": 422
     },
     {
       "Annotation": "CopyFiles Builds/RollABall_WebGL/TemplateData/progress-bar-empty-light.png",
@@ -15051,7 +14934,7 @@
       "Outputs": [
         "Builds/RollABall_WebGL/TemplateData/progress-bar-empty-light.png"
       ],
-      "DebugActionIndex": 429
+      "DebugActionIndex": 423
     },
     {
       "Annotation": "CopyFiles Builds/RollABall_WebGL/TemplateData/unity-logo-light.png",
@@ -15062,7 +14945,7 @@
       "Outputs": [
         "Builds/RollABall_WebGL/TemplateData/unity-logo-light.png"
       ],
-      "DebugActionIndex": 430
+      "DebugActionIndex": 424
     },
     {
       "Annotation": "CopyFiles Builds/RollABall_WebGL/TemplateData/progress-bar-full-light.png",
@@ -15073,7 +14956,7 @@
       "Outputs": [
         "Builds/RollABall_WebGL/TemplateData/progress-bar-full-light.png"
       ],
-      "DebugActionIndex": 431
+      "DebugActionIndex": 425
     },
     {
       "Annotation": "CopyFiles Builds/RollABall_WebGL/TemplateData/unity-logo-dark.png",
@@ -15084,7 +14967,7 @@
       "Outputs": [
         "Builds/RollABall_WebGL/TemplateData/unity-logo-dark.png"
       ],
-      "DebugActionIndex": 432
+      "DebugActionIndex": 426
     },
     {
       "Annotation": "Player",
@@ -15095,26 +14978,26 @@
         1,
         2,
         401,
+        408,
+        409,
         410,
-        413,
+        411,
         414,
         415,
+        416,
+        417,
+        418,
+        419,
         420,
         421,
         422,
         423,
         424,
         425,
-        426,
-        427,
-        428,
-        429,
-        430,
-        431,
-        432
+        426
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 433
+      "DebugActionIndex": 427
     }
   ],
   "FileSignatures": [
@@ -15483,7 +15366,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 433
+          "Player": 427
         }
 ,  "DefaultNodes": [
     0
